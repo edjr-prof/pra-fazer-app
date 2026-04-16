@@ -16,7 +16,7 @@ export default function Index() {
         .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
-            router.push('/(tabs)/tarefas');
+            router.push('/(tabs)/tasks');
         })
         .catch((error) => {
             const errorCode = error.code;

@@ -19,7 +19,7 @@ export default function TabLayout() {
         tabBarInactiveTintColor: '#FFF'
       }}>
       <Tabs.Screen
-        name="tarefas"
+        name="tasks"
         options={{
           title: 'Tarefas',
           tabBarIcon: ({ color }) => (
@@ -50,7 +50,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="sobre"
+        name="about"
         options={{
           title: 'Sobre',
           tabBarIcon: ({ color }) => (
